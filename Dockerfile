@@ -5,7 +5,6 @@ WORKDIR /app
 
 RUN pip install -r version.txt
 
-#EXPOSE 8081
 EXPOSE 5001
 
 ENTRYPOINT ["python"]
